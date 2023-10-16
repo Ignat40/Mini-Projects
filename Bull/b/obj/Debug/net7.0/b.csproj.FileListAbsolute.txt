@@ -1,0 +1,14 @@
+/Users/ignat/Desktop/Mini_proj/Bull/b/bin/Debug/net7.0/b
+/Users/ignat/Desktop/Mini_proj/Bull/b/bin/Debug/net7.0/b.deps.json
+/Users/ignat/Desktop/Mini_proj/Bull/b/bin/Debug/net7.0/b.runtimeconfig.json
+/Users/ignat/Desktop/Mini_proj/Bull/b/bin/Debug/net7.0/b.dll
+/Users/ignat/Desktop/Mini_proj/Bull/b/bin/Debug/net7.0/b.pdb
+/Users/ignat/Desktop/Mini_proj/Bull/b/obj/Debug/net7.0/b.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ignat/Desktop/Mini_proj/Bull/b/obj/Debug/net7.0/b.AssemblyInfoInputs.cache
+/Users/ignat/Desktop/Mini_proj/Bull/b/obj/Debug/net7.0/b.AssemblyInfo.cs
+/Users/ignat/Desktop/Mini_proj/Bull/b/obj/Debug/net7.0/b.csproj.CoreCompileInputs.cache
+/Users/ignat/Desktop/Mini_proj/Bull/b/obj/Debug/net7.0/b.dll
+/Users/ignat/Desktop/Mini_proj/Bull/b/obj/Debug/net7.0/refint/b.dll
+/Users/ignat/Desktop/Mini_proj/Bull/b/obj/Debug/net7.0/b.pdb
+/Users/ignat/Desktop/Mini_proj/Bull/b/obj/Debug/net7.0/b.genruntimeconfig.cache
+/Users/ignat/Desktop/Mini_proj/Bull/b/obj/Debug/net7.0/ref/b.dll
