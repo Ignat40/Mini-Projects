@@ -10,6 +10,9 @@ namespace BullsAndCows
     {
         public static void Main()
         {
+            Console.WriteLine("-------------------------------- ");
+            Console.WriteLine("|------ BULLS AND COWS ---------|");
+            Console.WriteLine("-------------------------------- ");
             GameLogic();
         }
 
@@ -30,8 +33,8 @@ namespace BullsAndCows
 
             while (true)
             {
-
-                Console.WriteLine("Your guess: ");
+                Console.WriteLine("|                               |");
+                Console.Write("|Your guess:");
                 string? userInput = Console.ReadLine();
 
                 attempts++;
@@ -41,7 +44,7 @@ namespace BullsAndCows
 
                 if (userInput.Length > toGuess.Length || userInput.Length < toGuess.Length || userInput[0] is '0')
                 {
-                    Console.WriteLine("Invalid Length or starts with null. Try again. ");
+                    Console.WriteLine("| Invalid Length or            \n| starts with null. Try again.  |");
                 }
                 else
                 {
@@ -64,11 +67,12 @@ namespace BullsAndCows
                         }
                     }
 
-                    Console.WriteLine($"Bulls: {bulls}, Cows: {cows}");
+                    Console.WriteLine($"| Bulls: {bulls}, Cows: {cows}             |");
 
                     if (bulls == 4)
                     {
-                        Console.WriteLine($"You Guessed it in {attempts} {(attempts < 2 ? "attempt" : "attempts")}");
+                        Console.WriteLine($"\n| You Guessed it in {attempts} {(attempts < 2 ? "attempt" : "attempts")}  |");
+                        Console.WriteLine("-------------------------------- ");
                         break;
                     }
                 }
