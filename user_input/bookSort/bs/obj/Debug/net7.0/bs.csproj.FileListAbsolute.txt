@@ -1,0 +1,14 @@
+/Users/ignat/Desktop/Mini_proj/user_input/bookSort/bs/bin/Debug/net7.0/bs
+/Users/ignat/Desktop/Mini_proj/user_input/bookSort/bs/bin/Debug/net7.0/bs.deps.json
+/Users/ignat/Desktop/Mini_proj/user_input/bookSort/bs/bin/Debug/net7.0/bs.runtimeconfig.json
+/Users/ignat/Desktop/Mini_proj/user_input/bookSort/bs/bin/Debug/net7.0/bs.dll
+/Users/ignat/Desktop/Mini_proj/user_input/bookSort/bs/bin/Debug/net7.0/bs.pdb
+/Users/ignat/Desktop/Mini_proj/user_input/bookSort/bs/obj/Debug/net7.0/bs.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ignat/Desktop/Mini_proj/user_input/bookSort/bs/obj/Debug/net7.0/bs.AssemblyInfoInputs.cache
+/Users/ignat/Desktop/Mini_proj/user_input/bookSort/bs/obj/Debug/net7.0/bs.AssemblyInfo.cs
+/Users/ignat/Desktop/Mini_proj/user_input/bookSort/bs/obj/Debug/net7.0/bs.csproj.CoreCompileInputs.cache
+/Users/ignat/Desktop/Mini_proj/user_input/bookSort/bs/obj/Debug/net7.0/bs.dll
+/Users/ignat/Desktop/Mini_proj/user_input/bookSort/bs/obj/Debug/net7.0/refint/bs.dll
+/Users/ignat/Desktop/Mini_proj/user_input/bookSort/bs/obj/Debug/net7.0/bs.pdb
+/Users/ignat/Desktop/Mini_proj/user_input/bookSort/bs/obj/Debug/net7.0/bs.genruntimeconfig.cache
+/Users/ignat/Desktop/Mini_proj/user_input/bookSort/bs/obj/Debug/net7.0/ref/bs.dll
