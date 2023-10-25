@@ -1,0 +1,14 @@
+/Users/ignat/Desktop/Mini_proj/user_input/StudentMS/sms/bin/Debug/net7.0/sms
+/Users/ignat/Desktop/Mini_proj/user_input/StudentMS/sms/bin/Debug/net7.0/sms.deps.json
+/Users/ignat/Desktop/Mini_proj/user_input/StudentMS/sms/bin/Debug/net7.0/sms.runtimeconfig.json
+/Users/ignat/Desktop/Mini_proj/user_input/StudentMS/sms/bin/Debug/net7.0/sms.dll
+/Users/ignat/Desktop/Mini_proj/user_input/StudentMS/sms/bin/Debug/net7.0/sms.pdb
+/Users/ignat/Desktop/Mini_proj/user_input/StudentMS/sms/obj/Debug/net7.0/sms.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ignat/Desktop/Mini_proj/user_input/StudentMS/sms/obj/Debug/net7.0/sms.AssemblyInfoInputs.cache
+/Users/ignat/Desktop/Mini_proj/user_input/StudentMS/sms/obj/Debug/net7.0/sms.AssemblyInfo.cs
+/Users/ignat/Desktop/Mini_proj/user_input/StudentMS/sms/obj/Debug/net7.0/sms.csproj.CoreCompileInputs.cache
+/Users/ignat/Desktop/Mini_proj/user_input/StudentMS/sms/obj/Debug/net7.0/sms.dll
+/Users/ignat/Desktop/Mini_proj/user_input/StudentMS/sms/obj/Debug/net7.0/refint/sms.dll
+/Users/ignat/Desktop/Mini_proj/user_input/StudentMS/sms/obj/Debug/net7.0/sms.pdb
+/Users/ignat/Desktop/Mini_proj/user_input/StudentMS/sms/obj/Debug/net7.0/sms.genruntimeconfig.cache
+/Users/ignat/Desktop/Mini_proj/user_input/StudentMS/sms/obj/Debug/net7.0/ref/sms.dll
