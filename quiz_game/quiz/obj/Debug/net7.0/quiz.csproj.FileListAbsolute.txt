@@ -1,0 +1,14 @@
+/Users/ignat/Desktop/Mini_proj/quiz_game/quiz/bin/Debug/net7.0/quiz
+/Users/ignat/Desktop/Mini_proj/quiz_game/quiz/bin/Debug/net7.0/quiz.deps.json
+/Users/ignat/Desktop/Mini_proj/quiz_game/quiz/bin/Debug/net7.0/quiz.runtimeconfig.json
+/Users/ignat/Desktop/Mini_proj/quiz_game/quiz/bin/Debug/net7.0/quiz.dll
+/Users/ignat/Desktop/Mini_proj/quiz_game/quiz/bin/Debug/net7.0/quiz.pdb
+/Users/ignat/Desktop/Mini_proj/quiz_game/quiz/obj/Debug/net7.0/quiz.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ignat/Desktop/Mini_proj/quiz_game/quiz/obj/Debug/net7.0/quiz.AssemblyInfoInputs.cache
+/Users/ignat/Desktop/Mini_proj/quiz_game/quiz/obj/Debug/net7.0/quiz.AssemblyInfo.cs
+/Users/ignat/Desktop/Mini_proj/quiz_game/quiz/obj/Debug/net7.0/quiz.csproj.CoreCompileInputs.cache
+/Users/ignat/Desktop/Mini_proj/quiz_game/quiz/obj/Debug/net7.0/quiz.dll
+/Users/ignat/Desktop/Mini_proj/quiz_game/quiz/obj/Debug/net7.0/refint/quiz.dll
+/Users/ignat/Desktop/Mini_proj/quiz_game/quiz/obj/Debug/net7.0/quiz.pdb
+/Users/ignat/Desktop/Mini_proj/quiz_game/quiz/obj/Debug/net7.0/quiz.genruntimeconfig.cache
+/Users/ignat/Desktop/Mini_proj/quiz_game/quiz/obj/Debug/net7.0/ref/quiz.dll
