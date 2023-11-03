@@ -1,0 +1,31 @@
+### Problem:
+
+Design a Library Management System.
+
+Create classes for `Library`, `Book`, and `Member`. Here are the specifications for each class:
+
+#### `Book` Class:
+- Properties: `Title`, `Author`, `ISBN` (a unique identifier for the book), `TotalCopies`, `AvailableCopies`.
+- Methods: 
+  - `BorrowBook(Member member)`: Decreases the `AvailableCopies` by 1 if there are available copies. If not, display an appropriate message.
+  - `ReturnBook()`: Increases the `AvailableCopies` by 1.
+  
+#### `Member` Class:
+- Properties: `Name`, `MemberId` (a unique identifier for the member), `BooksBorrowed` (a list of books the member has borrowed).
+- Methods:
+  - `BorrowBook(Book book)`: Adds the book to the member's `BooksBorrowed` list if the member is allowed to borrow more books (limit to 5 books per member). If the member has already borrowed 5 books, display a message indicating the limit has been reached.
+  - `ReturnBook(Book book)`: Removes the book from the member's `BooksBorrowed` list.
+
+#### `Library` Class:
+- Properties: `Books` (a list of available books), `Members` (a list of registered members).
+- Methods:
+  - `AddBook(Book book)`: Adds a book to the library's collection.
+  - `RemoveBook(Book book)`: Removes a book from the library's collection.
+  - `RegisterMember(Member member)`: Registers a new member with the library.
+  - `UnregisterMember(Member member)`: Unregisters a member from the library.
+  
+Ensure that you handle all possible edge cases and validate inputs. For example, a book cannot have a negative number of available copies, and a member cannot borrow more books than the allowed limit.
+
+Implement the classes and demonstrate their usage in the `Main` method of your program. You can create some books, members, and perform operations like borrowing, returning, registering, and unregistering to test your system.
+
+Feel free to add any additional features or methods that you think would enhance the Library Management System.

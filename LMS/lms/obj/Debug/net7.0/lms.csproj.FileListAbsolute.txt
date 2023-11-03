@@ -1,0 +1,14 @@
+/Users/ignat/Desktop/Mini_proj/LMS/lms/bin/Debug/net7.0/lms
+/Users/ignat/Desktop/Mini_proj/LMS/lms/bin/Debug/net7.0/lms.deps.json
+/Users/ignat/Desktop/Mini_proj/LMS/lms/bin/Debug/net7.0/lms.runtimeconfig.json
+/Users/ignat/Desktop/Mini_proj/LMS/lms/bin/Debug/net7.0/lms.dll
+/Users/ignat/Desktop/Mini_proj/LMS/lms/bin/Debug/net7.0/lms.pdb
+/Users/ignat/Desktop/Mini_proj/LMS/lms/obj/Debug/net7.0/lms.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ignat/Desktop/Mini_proj/LMS/lms/obj/Debug/net7.0/lms.AssemblyInfoInputs.cache
+/Users/ignat/Desktop/Mini_proj/LMS/lms/obj/Debug/net7.0/lms.AssemblyInfo.cs
+/Users/ignat/Desktop/Mini_proj/LMS/lms/obj/Debug/net7.0/lms.csproj.CoreCompileInputs.cache
+/Users/ignat/Desktop/Mini_proj/LMS/lms/obj/Debug/net7.0/lms.dll
+/Users/ignat/Desktop/Mini_proj/LMS/lms/obj/Debug/net7.0/refint/lms.dll
+/Users/ignat/Desktop/Mini_proj/LMS/lms/obj/Debug/net7.0/lms.pdb
+/Users/ignat/Desktop/Mini_proj/LMS/lms/obj/Debug/net7.0/lms.genruntimeconfig.cache
+/Users/ignat/Desktop/Mini_proj/LMS/lms/obj/Debug/net7.0/ref/lms.dll

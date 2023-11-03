@@ -1,0 +1,7 @@
+namespace LMS
+{
+    class Library
+    {
+        
+    }
+}
