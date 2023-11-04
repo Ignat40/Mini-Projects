@@ -11,7 +11,7 @@ namespace LMS
     {
         public string? Name; 
         public int MemberID;
-        public string[] BorrowedBooks;
+        public string[] BorrowedBooks = Array.Empty<string>();
 
         public void BorrowBook(Book book)
         {
@@ -39,7 +39,11 @@ namespace LMS
             Console.Write("Select which book you want to return: ");
             if(int.TryParse(Console.ReadLine(), out int usrChoice))
             {
-                //finsh it later. 
+                for(int i = 0; i < BorrowedBooks.Length; i++)
+                {
+                    BorrowedBooks[i] = BorrowedBooks[i+1];
+                }
+                Array.Resize(ref BorrowedBooks, BorrowedBooks.Length -1);
             }
 
         }
