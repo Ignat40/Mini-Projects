@@ -1,3 +1,9 @@
 ﻿namespace Todo;
 
-public
+public class Program
+{
+    public static void Main()
+    {
+        
+    }
+}
