@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "A+ys1o9am6L5CusWpt7PCZ8YXWySimhyqznpPcLWbQzqoCgcxHIqOCBfT/Y5OSStyByFwTTOQt/fSXyovtsL4A==",
+  "dgSpecHash": "wvRAhekoQBN8fkEXf6imL3bqvgXM1o4A3BwcQm7C/UM2Q64wIEhFQyg8JvOw8HnXC3F8STrk9cjLFfKgmuKweQ==",
   "success": true,
-  "projectFilePath": "/Users/ignat/Desktop/Mini_proj/TODO/todolist/todolist.csproj",
+  "projectFilePath": "/Users/ignat/Desktop/Mini_proj/TODO/ToDoList/ToDoList.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

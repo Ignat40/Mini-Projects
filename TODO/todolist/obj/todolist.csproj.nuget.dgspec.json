@@ -1,30 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "/Users/ignat/Desktop/Mini_proj/TODO/todolist/todolist.csproj": {}
+    "/Users/ignat/Desktop/Mini_proj/TODO/ToDoList/ToDoList.csproj": {}
   },
   "projects": {
-    "/Users/ignat/Desktop/Mini_proj/TODO/todolist/todolist.csproj": {
+    "/Users/ignat/Desktop/Mini_proj/TODO/ToDoList/ToDoList.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/ignat/Desktop/Mini_proj/TODO/todolist/todolist.csproj",
-        "projectName": "todolist",
-        "projectPath": "/Users/ignat/Desktop/Mini_proj/TODO/todolist/todolist.csproj",
+        "projectUniqueName": "/Users/ignat/Desktop/Mini_proj/TODO/ToDoList/ToDoList.csproj",
+        "projectName": "ToDoList",
+        "projectPath": "/Users/ignat/Desktop/Mini_proj/TODO/ToDoList/ToDoList.csproj",
         "packagesPath": "/Users/ignat/.nuget/packages/",
-        "outputPath": "/Users/ignat/Desktop/Mini_proj/TODO/todolist/obj/",
+        "outputPath": "/Users/ignat/Desktop/Mini_proj/TODO/ToDoList/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/ignat/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net7.0"
+          "net8.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -32,11 +32,16 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "imports": [
             "net461",
             "net462",
@@ -53,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.400/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
