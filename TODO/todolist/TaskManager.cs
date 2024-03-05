@@ -3,13 +3,15 @@ namespace Todo;
 public class TaskManager : ITask
 {
     private List<Task>? tasks;
+    private IStorage? taskStorage { get; set; }
 
-    public TaskManager(List<Task>? tasks)
+    public TaskManager(List<Task>? tasks, IStorage taskStorage)
     {
         this.tasks = tasks;
+        this.taskStorage = taskStorage;
     }
 
-    private IStorage? taskStorage;
+
 
 
     public void AddTask()
@@ -68,6 +70,7 @@ public class TaskManager : ITask
                 task1.Status = category;
 
                 tasks.Add(task1);
+                taskStorage.SaveList(tasks);
                 Console.WriteLine("Task Added Successfully!");
                 flag = true;
             }
@@ -81,12 +84,15 @@ public class TaskManager : ITask
         Console.WriteLine("= Your List Of Tasks =");
         Console.WriteLine("======================");
 
+        tasks = taskStorage.LoadList();
+
         if (tasks.Count == 0)
         {
             Console.WriteLine("You Don't Have Any Tasks!");
         }
         else
         {
+
             foreach (var task in tasks)
             {
                 Console.WriteLine($"Title: {task.Title}");
@@ -140,25 +146,27 @@ public class TaskManager : ITask
         {
             Console.WriteLine($"You have {tasks.Count} tasks. Which one do you want to remove? ");
 
+
             for (int i = 0; i < tasks.Count; i++)
             {
                 Console.WriteLine($"{i + 1}. - {tasks[i].Title}");
             }
 
+            Console.Write("Enter number: ");
             string? usrInput = Console.ReadLine();
 
             if (int.TryParse(usrInput, out int num))
             {
                 num -= 1;
-                if (num > tasks.Count)
-                {
-                    Console.WriteLine("Invalid input!");
-                }
-                else
+                if (num >= 0 && num < tasks.Count)
                 {
                     tasks.RemoveAt(num);
+                    taskStorage.SaveList(tasks);
                     Console.WriteLine("Task Removed Successfully");
+
                 }
+                else
+                    Console.WriteLine("Invalid input!");
             }
         }
 

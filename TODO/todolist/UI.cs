@@ -10,7 +10,8 @@ public class UI
 
         bool flag = false;
         List<Task> t = [];
-        TaskManager taskManager = new(t);
+        IStorage storage = new JsonStorage();
+        TaskManager taskManager = new(t, storage);
 
         while (!flag)
         {
