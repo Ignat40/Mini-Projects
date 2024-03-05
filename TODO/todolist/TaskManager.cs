@@ -71,7 +71,6 @@ public class TaskManager : ITask
 
                 tasks.Add(task1);
                 taskStorage.SaveList(tasks);
-                Console.WriteLine("Task Added Successfully!");
                 flag = true;
             }
         }
@@ -79,6 +78,78 @@ public class TaskManager : ITask
     }
 
     public void ViewTask()
+    {
+
+        Console.WriteLine("How Do You Want To See You Tasks?");
+        Console.WriteLine("1. All tasks");
+        Console.WriteLine("2. By Category");
+        Console.WriteLine("Enter Number: ");
+        string? usrInput = Console.ReadLine();
+        Console.Clear();
+
+        if (!string.IsNullOrEmpty(usrInput))
+        {
+            switch (usrInput)
+            {
+                case "1":
+                    ViewAllTasks();
+                    break;
+                case "2":
+                    ViewTaskByCategory();
+                    break;
+                default:
+                    Console.WriteLine("Invalid Input... Try again.");
+                    break;
+            }
+        }
+
+    }
+
+    public void ViewTaskByCategory()
+    {
+        Console.WriteLine("Choose category:");
+        Console.WriteLine("1. To Do");
+        Console.WriteLine("2. In Process");
+        Console.WriteLine("3. Done");
+        Console.Write("Enter Number: ");
+        string? usrInput = Console.ReadLine();
+
+        tasks = taskStorage.LoadList();
+
+        if (tasks.Count == 0)
+        {
+            Console.WriteLine("You Don't Have Any Tasks!");
+        }
+        else
+        {
+            if (int.TryParse(usrInput, out int categoryNumber) && categoryNumber >= 1 && categoryNumber <= 3)
+            {
+                Task.Category selectedCategory = (Task.Category)(categoryNumber - 1);
+
+                Console.WriteLine($"Tasks in {selectedCategory}:");
+
+                Console.WriteLine("======================");
+                Console.WriteLine("= Your List Of Tasks =");
+                Console.WriteLine("======================");
+
+                foreach (var task in tasks)
+                {
+                    if (task.Status == selectedCategory)
+                    {
+                        Console.WriteLine($"Title: {task.Title}");
+                        Console.WriteLine($"Status: {task.Status}");
+                        Console.WriteLine($"     -: {task.Description}");
+                        Console.WriteLine();
+                    }
+                }
+
+            }
+        }
+
+
+    }
+
+    public void ViewAllTasks()
     {
         Console.WriteLine("======================");
         Console.WriteLine("= Your List Of Tasks =");
@@ -101,7 +172,6 @@ public class TaskManager : ITask
                 Console.WriteLine();
             }
         }
-
     }
 
     public void EditTask()
