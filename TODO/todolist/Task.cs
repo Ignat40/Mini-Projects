@@ -18,10 +18,10 @@ public class Task
 
     public Task(Guid taskId, string title, string description, Category status)
     {
-        this.TaskId = taskId;
-        this.Title = title;
-        this.Description = description;
-        this.Status = status;
+        TaskId = taskId;
+        Title = title;
+        Description = description;
+        Status = status;
     }
 
     public Task()
