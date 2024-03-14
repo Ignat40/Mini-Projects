@@ -2,42 +2,40 @@ using System.Linq.Expressions;
 using System.Text.Json;
 namespace Todo;
 
-public class JsonStorage : IStorage
+public class JsonStorage(string filePath) : IStorage
 {
+    private readonly string _filePath = filePath;
+
     public List<Task> LoadList()
     {
-        string jsonString = File.ReadAllText("todo.json");
+        
         try
         {
-            if(string.IsNullOrEmpty(jsonString))
+            string jsonString = File.ReadAllText(_filePath);
+            if (string.IsNullOrEmpty(jsonString))
             {
-                Console.WriteLine("Invalid Paht");
-                return [];
+                throw new FileNotFoundException("File is empty or does not exist.");
             }
-                
-            List<Task>? tasks = JsonSerializer.Deserialize<List<Task>>(jsonString);
-            return tasks ?? [];
-            
+            return JsonSerializer.Deserialize<List<Task>>(jsonString) ?? new List<Task>();
         }
         catch (Exception ex)
         {
-            Console.WriteLine("Error ->" + ex);
-            return [];
+            throw new System.IO.FileNotFoundException("Error loading tasks from file.", ex);
         }
-        
+
     }
 
     public void SaveList(List<Task> tasks)
     {
-        string jsonString = JsonSerializer.Serialize(tasks, new JsonSerializerOptions{ WriteIndented = true});
         try
         {
-            File.WriteAllText("todo.json", jsonString);
+            string jsonString = JsonSerializer.Serialize(tasks, new JsonSerializerOptions { WriteIndented = true });
+            File.WriteAllText(_filePath, jsonString);
             Console.WriteLine("Task Saved!");
         }
         catch (Exception ex)
         {
-            Console.WriteLine($"Error -> {ex}");
+            throw new InvalidOperationException("Error saving task to file", ex);
         }
     }
 }

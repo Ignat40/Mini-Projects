@@ -1,18 +1,9 @@
 namespace Todo;
 
-public class TaskManager : ITask
+public class TaskManager(List<Task>? tasks, IStorage taskStorage) : ITask
 {
-    private List<Task>? tasks;
-    private IStorage? taskStorage { get; set; }
-
-    public TaskManager(List<Task>? tasks, IStorage taskStorage)
-    {
-        this.tasks = tasks;
-        this.taskStorage = taskStorage;
-    }
-
-
-
+    private List<Task>? tasks = tasks;
+    private IStorage? taskStorage { get; set; } = taskStorage;
 
     public void AddTask()
     {

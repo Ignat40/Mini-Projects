@@ -10,7 +10,7 @@ public class UI
 
         bool flag = false;
         List<Task> t = [];
-        IStorage storage = new JsonStorage();
+        IStorage storage = new JsonStorage("todo.json");
         TaskManager taskManager = new(t, storage);
 
         while (!flag)
