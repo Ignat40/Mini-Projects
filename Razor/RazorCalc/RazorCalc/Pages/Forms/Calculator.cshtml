@@ -1,0 +1,21 @@
+@page 
+@model RazorCalc.Calculator
+@{
+    ViewData["Title"] = "Simple Calculator";
+}
+
+<form method = "get">
+    <label for = "Number1"> Number 1</label>
+    <br>
+    <input type = "text" asp-for="Calc.Number1" placeholder="Enter value">
+    <br>
+    <label for = "Number2"> Number 2</label>
+    <br>
+    <input type = "text" asp-for="Calc.Number2" placeholder="Enter value">
+    <br>
+    <br>
+    <button type="button"> + </button>
+    <button type="button"> - </button>
+    <button type="button"> * </button>
+    <button type="button"> / </button>
+</form>
