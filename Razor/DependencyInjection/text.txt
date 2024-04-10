@@ -1,0 +1,14 @@
+Dependency injection is a design pattern used to increase flexibility and maintainability in object-oriented code by removing hard-coded dependencies between objects. In simpler terms, it allows you to decouple your classes from the concrete implementations of the objects they depend on, making your code more modular and easier to test.
+
+Let's break it down:
+
+1. What is Dependency Injection?
+Dependency Injection is a technique where the dependencies of a class are provided from the outside rather than created within the class itself. This means that a class doesn't create the objects it needs but instead receives them from an external source, typically via constructor parameters or properties.
+
+2. Why Use Dependency Injection?
+Using Dependency Injection has several benefits:
+
+Modularity: Classes become more modular because they're not tightly coupled to specific implementations of their dependencies.
+Testability: It becomes easier to unit test classes since you can easily provide mock or stub implementations of dependencies.
+Flexibility: It's easier to swap out implementations of dependencies without modifying the class that depends on them.
+Reusability: Dependencies can be reused across different classes without duplication of code.
