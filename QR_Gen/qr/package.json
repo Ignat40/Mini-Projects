@@ -1,0 +1,17 @@
+{
+  "name": "qr",
+  "version": "1.0.0",
+  "description": "qr code generator from link ",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Botsi",
+  "license": "ISC",
+  "dependencies": {
+    "inquire": "^0.4.8",
+    "inquirer": "^12.4.2",
+    "qr-image": "^3.2.0"
+  }
+}
